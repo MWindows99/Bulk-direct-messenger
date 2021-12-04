@@ -1,7 +1,7 @@
 # Bulk-direct-messenger
-Bulk direct messenger can send direct messages to many people at once.
+Bulk direct messenger can send direct messages to many people at once. I have confirmed that it works with the latest version of tweepy.
 
-Important : This content was created with reference to [this video](https://youtu.be/fFzI0h-3USI). This content has been modified to work.
+ - Important : This content was created with reference to [this video](https://youtu.be/fFzI0h-3USI). This content has been modified to work.
 
 # Usage
 1. Get the Twitter API Key from [here](https://developer.twitter.com).
