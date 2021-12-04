@@ -5,7 +5,7 @@ def main():
     consumer_key = "xxxx"
     consumer_secret = "xxxx"
     access_token = "xxxx"
-    access_token_secret ="xxxx"
+    access_token_secret = "xxxx"
     
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -22,5 +22,5 @@ def main():
         except:
             pass
     
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
