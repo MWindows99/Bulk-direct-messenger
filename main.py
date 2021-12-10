@@ -6,7 +6,7 @@ def main():
     consumer_secret = "xxxx"
     access_token = "xxxx"
     access_token_secret = "xxxx"
-    
+    # DON'T CHANGE
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth)
@@ -15,7 +15,7 @@ def main():
     list_id = 1234567890
     # Direct Message
     message = "Hello, World!"
-    
+    # DON'T CHANGE
     for member in tweepy.Cursor(api.get_list_members, list_id=list_id).items()
         try:
             api.send_direct_message(member.id, message)
